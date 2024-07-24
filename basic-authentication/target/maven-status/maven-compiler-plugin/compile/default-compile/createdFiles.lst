@@ -1,0 +1,9 @@
+org\basicsecurity\repository\UserRepository.class
+org\basicsecurity\service\UserService.class
+org\basicsecurity\entity\enums\UserRoles.class
+org\basicsecurity\exceptions\UserNotFoundException.class
+org\basicsecurity\api\UserController.class
+org\basicsecurity\authentication\AuthenticationService.class
+org\basicsecurity\entity\User.class
+org\basicsecurity\authentication\SecurityConfig.class
+org\basicsecurity\BasicAuthenticationApplication.class

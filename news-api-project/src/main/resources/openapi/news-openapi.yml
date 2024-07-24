@@ -1,0 +1,59 @@
+openapi: 3.0.0
+info:
+  title: News API
+  description: API to get headlines based on their preferences
+  version: 1.0.0
+paths:
+ /api/news:
+  get:
+    tags:
+      - News
+    summary: Get top headlines
+    operationId: GetTopHeadlines
+    parameters:
+      - name: country
+        in: query
+        required: true
+        schema:
+          type: string
+    responses:
+      '200':
+        description: Successfully retrieved top headlines
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                content:
+                  type: string
+
+
+components:
+  schemas:
+    Article:
+      type: object
+      properties:
+        source:
+          $ref: '#/components/schemas/Source'
+        author:
+          type: string
+        title:
+          type: string
+        description:
+          type: string
+        url:
+          type: string
+        urlToImage:
+          type: string
+        publishedAt:
+          type: string
+          format: date-time
+        content:
+          type: string
+    Source:
+      type: object
+      properties:
+        sourceId:
+          type: string
+        sourceName:
+          type: string

@@ -1,0 +1,9 @@
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\api\UserController.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\authentication\AuthenticationService.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\authentication\SecurityConfig.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\BasicAuthenticationApplication.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\entity\enums\UserRoles.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\entity\User.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\exceptions\UserNotFoundException.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\repository\UserRepository.java
+C:\Users\Olha\IdeaProjects\security-spring-boot-project-old\basic-authentication\src\main\java\org\basicsecurity\service\UserService.java
